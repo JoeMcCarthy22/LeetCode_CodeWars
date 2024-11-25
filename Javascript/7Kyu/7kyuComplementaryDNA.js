@@ -37,10 +37,6 @@ function DNAStrand(DNA) {
   return complementaryDNA;
 }
 
-
-
-
-
   
   /* Parameters: DNA string
   Return: Complementary DNA string
