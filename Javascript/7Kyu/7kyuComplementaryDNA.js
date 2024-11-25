@@ -18,6 +18,29 @@ function dnaStrand(dna){
     return String(dnaMap.join(''))
   }
   
+
+/* Attempt 2 */
+
+function DNAStrand(DNA) {
+  let complementaryDNA = '';
+  for (let x = 0; x < DNA.length; x++) {
+    if (DNA[x] === 'A') {
+      complementaryDNA += 'T';
+    } else if (DNA[x] === 'T') {
+      complementaryDNA += 'A';
+    } else if (DNA[x] === 'G') {
+      complementaryDNA += 'C';
+    } else if (DNA[x] === 'C') {
+      complementaryDNA += 'G';
+    }
+  }
+  return complementaryDNA;
+}
+
+
+
+
+
   
   /* Parameters: DNA string
   Return: Complementary DNA string
