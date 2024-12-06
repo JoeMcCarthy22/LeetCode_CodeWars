@@ -13,7 +13,6 @@ Ps:
 Loop through the input string characters
 if char = CAPITAL, then split it , create an array to store in
 this creates an array, so join them back together with a ' '
-
 */
 
 function solution(string) {
