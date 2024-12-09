@@ -17,16 +17,26 @@ Use slicing to achieve desired outcome
 function domainName(url){
     let result = '';
     // Handle cases for content preceding the domain
-    // handle cases for 'http://'
-    if (url[4] === ':'){
+    // handle cases for 'http://www.'
+    if (url[10] === '.' && url[4] === ':'){
+      result = url.slice(11);
+    // handle cases for 'https://www.'
+    } else if (url[11] === '.' && url[4] === 's'){
+      result = url.slice(12)
+    // handle cases for 'http://'  
+    } else if (url[0] === 'h' && url[4] === ':'){
       result = url.slice(7);
     // handle cases for 'https://'
-    } else if (url[4] === 's'){
+    } else if (url[0] === 'h' && url[4] === 's'){
       result = url.slice(8);
     // handle cases for 'www.'
-    } else if (url[0] === 'w'){
+    } else if (url[0] === 'w' && url[1] === 'w'){
       result = url.slice(4);
+    } else {
+      result = url
     }
+      
+    
     
     // Handle cases for content succeeding the domain
     // use indexOf('.') to find the first full stop, then slice from its index
