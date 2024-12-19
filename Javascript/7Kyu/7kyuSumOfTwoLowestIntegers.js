@@ -1,4 +1,4 @@
-/* Challenge: Sum of Two Lowest Positive Integers
+/* Challenge: Sum of The Two Lowest Positive Integers
 Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or empty arrays will be passed to the function.
 
 Example:
