@@ -16,3 +16,20 @@ function sumTwoSmallestNumbers(array){
     let array2 = array.sort((a, b) => a - b)
     return array2[0] + array2[1]
 }
+
+
+/* attempt 2 */
+
+/*
+P: array of more than 4 integers
+R: the sum of two lowest positive numbers
+E: For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
+Ps:
+- sort the array
+- let result = arr[0] + arr[1]
+*/
+
+function sumTwoSmallestNumbers(numbers) {  
+    numbers.sort((a, b) => a - b)
+    return numbers[0] + numbers[1]
+  }
