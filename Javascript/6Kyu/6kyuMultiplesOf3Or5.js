@@ -11,7 +11,7 @@ Ps:
 -handle edge case
 -make an array to store all the multiples in
 -loop from 0 to (number)
-- if number % 3 or 5 === 0 ;
+- if number % 3 or 5 === 0
 - reduce the array and return the sum
 */
 
