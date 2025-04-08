@@ -11,7 +11,7 @@ R: an array of all the divisors except 1 and the integer itself, or prime
 E: as above
 Ps: create a result array
 for loop from 2 to integer -1
-if integer % i == 0; then push to the result array
+if integer % i == 0; then push to the result  array
 if the result array length == 0 , return the string `${integer} is prime`
 */
 
