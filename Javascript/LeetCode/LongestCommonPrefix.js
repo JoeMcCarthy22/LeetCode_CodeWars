@@ -6,7 +6,6 @@ Example 1:
 Input: strs = ["flower","flow","flight"]
 Output: "fl"*/
 
-
 /**
  * @param {string[]} strs
  * @return {string}
@@ -31,6 +30,11 @@ var longestCommonPrefix = function(strs) {
 
     let prefix = "";
 
+    if (strs.length === 0) return "";
+    if (strs.length === 1) return strs[0];
+    if (strs[0].length === 0) return "";
+
+
     for (let i = 0; i < strs[0].length; i++) { // loop over each character index of the first word
         let char = strs[0][i]; // character at position i in the first word
 
@@ -41,8 +45,9 @@ var longestCommonPrefix = function(strs) {
                 }
             }
 
-    prefix += char; // if all words matched at this character, add it to the prefix
+    prefix += char;
+    
 }
 
-    
+return prefix  
 };
