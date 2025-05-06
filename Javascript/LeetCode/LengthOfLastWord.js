@@ -14,10 +14,11 @@ Explanation: The last word is "World" with length 5.*/
  return = the length of the last word in the string. Words do not include spaces alone
  ex- as above
 
- Pseudocode:
+ Pseudocode: 
+ - manual index
  -split the string into an array by space s.split(' ')
  -if the last index !== " " then return last index.length
- - use a while loop to keep decreasing last index until !== " "
+ - use a while loop to keep decreasing last index until !== " ";
  */
  var lengthOfLastWord = function(s) {
 
