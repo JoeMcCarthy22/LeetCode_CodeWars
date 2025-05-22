@@ -22,7 +22,7 @@ Thus, the result should be [1,2,4].*/
  - join the array into a number 
  - add one to the number
  - convert to string
- -split the number back into an array, map to number and return
+ -split the number back into an array, map to number and returns
  */
 var plusOne = function(digits) {
 
