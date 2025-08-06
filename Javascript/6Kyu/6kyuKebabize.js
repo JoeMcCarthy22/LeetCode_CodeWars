@@ -6,7 +6,7 @@ Modify the kebabize function so that it converts a camel case string into a keba
 "CAMEL"  -->  "c-a-m-e-l"
 
 
-input is a camelCase string
+input is a camelCase stringm
 need to return the string in kebab - i.e needs to have a dash between words - before each cap
 -split the string into an array
 -loop through the array
