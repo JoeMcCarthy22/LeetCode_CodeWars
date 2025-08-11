@@ -10,7 +10,7 @@ Examples
 parameter is an array that can include nested arrays
 return the number of all elements in all arrays
 example as above
--establish a count = 0;
+-establish a count = 0;;
 -use recursion?
 -loop through input
 -if el !== array, then add to count. 
