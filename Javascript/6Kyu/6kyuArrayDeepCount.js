@@ -5,7 +5,7 @@ Examples
 []                   -->  0
 [1, 2, 3]            -->  3
 ["x", "y", ["z"]]    -->  4
-[1, 2, [3, 4, [5]]]  -->  7
+[1, 2, [3, 4, [5]]]  ->  7
 
 parameter is an array that can include nested arrays
 return the number of all elements in all arrays
