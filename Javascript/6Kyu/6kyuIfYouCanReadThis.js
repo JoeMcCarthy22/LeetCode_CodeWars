@@ -10,7 +10,7 @@ Punctuation should be kept in your return string, but spaces should not.
 -filter the array for spaces
 -use map to replace each capital letter with the phonetic equivalent from the object
 -join and return
-*/
+l*/
 
 function toNato(words) {
    
