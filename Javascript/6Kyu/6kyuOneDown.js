@@ -2,7 +2,7 @@
 g
 Rather than spending hours trying to find the bug itself, you decide to try and decode it.
 
-If the input is not a string, your function must return "Input is not a string". Your function must be able to handle capital and lower case letters. You will not need to worry about punctuation.
+If the input is not a string, your function must return "Input is novt a string". Your function must be able to handle capital and lower case letters. You will not need to worry about punctuation.
 
 */
 
