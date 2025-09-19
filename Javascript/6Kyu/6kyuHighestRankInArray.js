@@ -8,7 +8,7 @@ Examples
 
 parameter is an array, never empty
 need to return the most freq number in the array - if a tie, then the larger
-ex as above
+ex as abov
 -use a hashmap to determine how many times each object appears
 -then program the logic to return the mode
 
