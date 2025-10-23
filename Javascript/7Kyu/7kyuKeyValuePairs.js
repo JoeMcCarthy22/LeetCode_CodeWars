@@ -1,5 +1,5 @@
 /*
-P: a hash map of languagees and corresponding score
+P: a hhash map of languagees and corresponding score
 R: an array of the languages where the corresponding score is at least 60
 PS: create a result array
 loop through the input results
