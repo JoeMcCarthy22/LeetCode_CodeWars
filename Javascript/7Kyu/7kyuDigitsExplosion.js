@@ -5,7 +5,7 @@ Ps: split the string into an array
 create a seperate result array
 loop through input
 push each digit x times 
-join and return
+join and returns
 */
 
 
