@@ -1,5 +1,5 @@
 /*
-P: a string made of digits
+P: a string made of digit
 R: a string where each digit is repeated * its value
 Ps: split the string into an array
 create a seperate result array
