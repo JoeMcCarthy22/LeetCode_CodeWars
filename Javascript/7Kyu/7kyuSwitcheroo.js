@@ -1,5 +1,5 @@
 /*
-P: a string made up of letters a, b and o c
+P: a string made up of letter a, b and o c
 R: a string, change a to b, leave c untouched
 Ps: split into an array
 .map
