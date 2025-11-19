@@ -13,7 +13,7 @@ The right side letters and their power:
  q - 3
  d - 2
  z - 1
-The other letters don't have power and are only vicims. Sum up each side's letters' power values to determine which side wins.
+The other letters don't have power and are only vitcims. Sum up each side's letters' power values to determine which side wins.
 parameter is a string of small letters
 return statement dependent on outcome of scores
 -keep score totals
