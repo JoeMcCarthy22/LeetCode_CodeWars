@@ -1,6 +1,6 @@
 /*
 parameter is a number
-need to return as a number but in reverse
+need to return als a number but in reverse
 
 toString, split, reverse, join,
 
