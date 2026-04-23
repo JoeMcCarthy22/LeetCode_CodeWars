@@ -98,4 +98,4 @@ function variance(town, strng) {
   
   return result;
  
-}
+};
